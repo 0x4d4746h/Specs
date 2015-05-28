@@ -90,9 +90,9 @@ Pod::Spec.new do |s|
 
   #s.source_files = './RongCloudSDK/*'
   #s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "RongCloudSDK/RongIMKit.framework/RongIMKit", "RongCloudSDK/RongIMLib.framework/RongIMLib"
+  #s.exclude_files = "RongCloudSDK/RongIMKit.framework/RongIMKit", "RongCloudSDK/RongIMLib.framework/RongIMLib"
 
-  s.public_header_files = "RongCloudSDK/RongIMKit.framework/Headers/*.h", "RongCloudSDK/RongIMLib.framework/Headers/*.h"
+  #s.public_header_files = "RongCloudSDK/RongIMKit.framework/Headers/*.h", "RongCloudSDK/RongIMLib.framework/Headers/*.h"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

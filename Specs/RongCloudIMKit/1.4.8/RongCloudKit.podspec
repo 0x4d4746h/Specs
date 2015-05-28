@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "RongCloudKit"
-  s.version      = "2.0.5"
-  s.summary      = "RongCloud Kit."
+  s.name         = "RongCloudIMKit"
+  s.version      = "1.4.8"
+  s.summary      = "RongCloud IM SDK."
 
   s.description  = <<-DESC
-                   RongCloud Kit for iOS.
+                   RongCloud IM iOS SDK.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "6.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :http => "http://downloads.rongcloud.cn/Rong_Cloud_iOS_SDK_v2_0_5_dev.zip" }
+  s.source       = { :http => "http://downloads.rongcloud.cn/iOS_IMKit_v_1_4_8.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source_files = './RongCloudSDK/*'
-  #s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "*/Headers/*.h"
   #s.exclude_files = "RongCloudSDK/RongIMKit.framework/RongIMKit", "RongCloudSDK/RongIMLib.framework/RongIMLib"
 
   #s.public_header_files = "RongCloudSDK/RongIMKit.framework/Headers/*.h", "RongCloudSDK/RongIMLib.framework/Headers/*.h"
@@ -103,7 +103,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "*/RongCloud.bundle", "*/en.lproj", "*/zh-Hans.lproj"
+  s.resources = "*/*.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -115,8 +115,9 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.vendored_frameworks = "*/RongIMKit.framework", "*/RongIMLib.framework"
-  s.frameworks = "AssetsLibrary", "MapKit", "ImageIO", "CoreLocation", "SystemConfiguration", "QuartzCore", "OpenGLES", "CoreVideo", "CoreTelephony", "CoreMedia", "CoreAudio", "CFNetwork", "AudioToolbox", "AVFoundation", "UIKit", "CoreGraphics"
+  #s.vendored_frameworks = "*/RongIMKit.framework", "*/RongIMLib.framework"
+  s.vendored_libraries = "*/*.a"
+  s.frameworks = "AudioToolbox", "AVFoundation", "CFNetwork", "CoreAudio", "CoreGraphics", "CoreLocation", "CoreImage", "CoreMedia", "CoreTelephony", "CoreVideo", "Foundation", "MapKit", "OpenGLES", "QuartzCore",  "UIKit", "SystemConfiguration"
 
   # s.library   = "iconv"
   s.libraries = "z", "xml2", "stdc++", "sqlite3", "c++", "c++abi"
