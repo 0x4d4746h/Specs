@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "RongCloudKit"
+  s.name         = "RongCloudIMKit"
   s.version      = "2.0.5"
-  s.summary      = "RongCloud Kit."
+  s.summary      = "RongCloud IMKit."
 
   s.description  = <<-DESC
-                   RongCloud Kit for iOS.
+                   RongCloud IMKit for iOS.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
