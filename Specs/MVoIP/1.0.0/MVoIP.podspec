@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MVoIP"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "This is a short description of MVoIP in MVoIP.podspec."
 
   s.description  = <<-DESC
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "http://rongcloud.cn/"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif", ""
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/0x4d4746h/MVoIP.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/0x4d4746h/MVoIP.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
