@@ -121,7 +121,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
  s.frameworks = "AdSupport", "CoreLocation", "QuartzCore", "CoreTelephony", "CoreFoundation", "SystemConfiguration", "CoreGraphics", "UIKit", "Foundation"
 
- s.library   = "libsqlite3.0"
+ s.library   = "sqlite3.0"
   # s.libraries = "iconv", "xml2"
 
 
