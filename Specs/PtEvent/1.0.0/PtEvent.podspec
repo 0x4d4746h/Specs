@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/PtEvent.git", :tag => "#{s.version}" }
+  s.source       = { :http => "https://sdk.ptengine.cn/sdk/jp/ptengine_sdk_ios.zip", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
