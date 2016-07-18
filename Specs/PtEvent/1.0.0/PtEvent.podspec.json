@@ -23,7 +23,7 @@
     "*/PtEventSDK.framework",
     "*/PtTrackSDK.framework"
   ],
-  "vendored_libraries": "",
+
   "frameworks": [
     "QuartzCore",
     "CoreTelephony",
@@ -33,6 +33,5 @@
     "UIKit",
     "Foundation"
   ],
-  "libraries": [],
   "requires_arc": true
 }
