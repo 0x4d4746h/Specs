@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PtEvent"
-  s.version      = "1.0.0"
+  s.version      = "1.0.0-beta"
   s.summary      = "This is an event SDK to capture for setting your application's event."
 
   # This description is used to generate tags and improve search results.
