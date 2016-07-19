@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "PtTrack"
+  s.name         = "PtEvent_JP"
   s.version      = "1.0.0"
-  s.summary      = "This is an event track SDK to capture the registered event with PtEventSDK, and it's just used to Japan market."
+  s.summary      = "This is an event SDK to capture for setting your application's event, and it's just used to Japan market."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                      This is an event track SDK to capture the registered event with PtEventSDK, you can easily to embed it
-                      to your application project and invoke API interface for tracking touch event.
+                      This is an event SDK to capture for setting your application's event, you can easily to embed it
+                      to your application project and invoke API interface for listening touch event.
                    DESC
 
   s.homepage     = "https://app.ptengine.jp"
@@ -111,7 +111,7 @@ Pod::Spec.new do |s|
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-  s.vendored_frameworks = "PtTrackSDK.framework"
+  s.vendored_frameworks = "PtEventSDK.framework"
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Link your library with frameworks, or libraries. Libraries do not include
@@ -119,9 +119,9 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
- s.frameworks = "AdSupport", "CoreLocation", "QuartzCore", "CoreTelephony", "CoreFoundation", "SystemConfiguration", "CoreGraphics", "UIKit", "Foundation"
+ s.frameworks = "QuartzCore", "CoreTelephony", "CoreFoundation", "SystemConfiguration", "CoreGraphics", "UIKit", "Foundation"
 
- s.library   = "sqlite3.0"
+  # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
 
