@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :http => "https://sdk.ptengine.cn/sdk/jp/ptengine_sdk_ios.zip" }
+  s.source       = { :http => "https://sdk.ptengine.cn/sdk/cn/ptengine_sdk_ios.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
